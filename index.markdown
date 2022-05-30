@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+This is Bruce Zhong's Blog.
+
