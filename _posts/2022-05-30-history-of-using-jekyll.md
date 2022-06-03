@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
+title: Jekyll 使用记录
 ---
 
 # A history of using jekyll of me, and for my github pages
