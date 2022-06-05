@@ -6,7 +6,7 @@ title: 完成在线简历
 
 完成了一份在线简历，基于一个Jekyll简历模板 https://github.com/sharu725/online-cv 构建，过程也很简单。
 
-主要是花时间完整简历内容，顺便总结了一下过往的工作经历。
+主要是花时间完成简历内容，顺便总结了一下过往的工作经历。
 
 简历访问路径：
  * 通过GitHub Pages 访问： https://xzhong86.github.io/online-cv/
