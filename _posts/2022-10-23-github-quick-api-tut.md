@@ -1,3 +1,10 @@
+---
+title:  "GitHub API 入门"
+layout:  post
+date:    2022-10-22 12:59:32 +0800
+categories: jekyll update
+---
+
 # GitHub API 入门
 
 我在找一种方法能够方便备份我在github上面的代码库，以防哪天彻底不能访问了，代码不至于找不到。

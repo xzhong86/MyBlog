@@ -1,3 +1,10 @@
+---
+title:  "TMUX速查&教程"
+layout:  post
+date:    2022-10-22 12:28:08 +0800
+categories: jekyll update
+---
+
 # TMUX速查&教程
 
 方便我自己查阅的用法说明、记录。 不知道tmux是啥的去搜一下吧。
