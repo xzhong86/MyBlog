@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 完成在线简历
+hidden: true
 ---
 # 在线简历
 

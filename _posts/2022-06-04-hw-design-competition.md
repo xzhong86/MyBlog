@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 设计大赛回顾
+hidden: true
 ---
 # 设计大赛回顾
 
