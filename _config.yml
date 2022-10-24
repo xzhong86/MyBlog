@@ -22,23 +22,16 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
+      value: xzhong86@gmail.com
+      link: mailto:xzhong86@gmail.com
     - name: WeChat
-      value: YourWeChatUsername
+      value: xzhong86
       link: "#"
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.cn/incareer/in/ACoAAD0BK4QBJQyktSFTXXyAo7hBfHGxG4olfAs
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
+      link: http://github.com/xzhong86
     - name: RSS
       link: /feed.xml
 
