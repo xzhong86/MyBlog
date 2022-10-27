@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Work
-slug: /work
+permalink: /work/
 items:
   - title: CPU uArch 建模、分析
     image:

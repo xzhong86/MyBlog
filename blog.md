@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-slug: /blog
+permalink: /blog/
 ---
 
 List of posts：
