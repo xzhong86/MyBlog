@@ -10,21 +10,29 @@ categories: jekyll update
 
 收集主要的ARM uArch产品，用作微架构测试
 
+一些有用的链接：
+ - https://en.wikipedia.org/wiki/ARM_architecture_family， 整体介绍ARM处理器
+ - https://en.wikipedia.org/wiki/Comparison_of_Armv8-A_processors， 列出了V8-A core的主要微架构特性。
+ - https://en.wikipedia.org/wiki/List_of_products_using_ARM_processors， 如其名，不过罗列信息不太好查看。
+ - https://en.wikipedia.org/wiki/List_of_ARM_processors， 列出了包括三方的ARM处理器和简单微架构信息。底部有微架构和soc对应表。
+
+
 ## 手上的CPU
-| ARM核      | 设备  |  备选
-| ---        | ---   | ---
+
+| ARM核      | 设备  |  备选 |
+| ---        | ---   | --- |
 | ARM11：     | 树莓派1、zero  |
 | Cortex-A7： | 树莓派2，全志T113、V3s |
 | Cortex-A53：| 树莓派3，H616， |
 | Cortex-A55：| 晶晨S905，  |
 | Cortex-A72：| 树莓派4，   |
-| Cortex-A73：| 无   | 备选：高通835；备选：小米6，一加5
-| Cortex-A75：| 无   | 备选：高通845、850；备选：小米8
-| Cortex-A76：| 无   | 备选：高通855、860，备选：小米9
-| Cortex-A77：| 黑鲨4-高通870。 | 备选：高通865、870，天玑1000；
-| Cortex-A78：| 红米note10-天玑1100。 | 备选：高通888，天玑1100、1200，
-| Cortex-X1： | 无   | 备选：高通888，
-| Cortex-X2： | 无   | 备选：高通8G1，天玑9000，
+| Cortex-A73：| 无   | 备选：高通835；备选：小米6，一加5 |
+| Cortex-A75：| 无   | 备选：高通845、850；备选：小米8 |
+| Cortex-A76：| 无   | 备选：高通855、860，备选：小米9 |
+| Cortex-A77：| 黑鲨4-高通870。 | 备选：高通865、870，天玑1000； |
+| Cortex-A78：| 红米note10-天玑1100。 | 备选：高通888，天玑1100、1200， |
+| Cortex-X1： | 无   | 备选：高通888， |
+| Cortex-X2： | 无   | 备选：高通8G1，天玑9000， |
 
 
 ## 小米手机列表
