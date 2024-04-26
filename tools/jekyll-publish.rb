@@ -19,7 +19,7 @@ class DocInfo
     get_yaml_info(doc_text)
     @title = @yaml_info['title']
     @title ||= find_title(doc_text) if not @title
-    @date  = @yaml_info['date'].to_s
+    @date  = @yaml_info['date'] && @yaml_info['date'].to_s
     @date  ||= draft_fh.stat.mtime.strftime("%F")
   end
 
@@ -37,12 +37,17 @@ class DocInfo
   end
 
   def get_yaml_info(doc_text)
-    data = YAML.load(doc_text)
-    @yaml_info = data || Hash.new
-    if data
-      @yaml_date = data["date"]
-      @title = data["title"] || @title
-      strip_yaml_head()
+    has_yaml = @doc_text.lines.grep(/^---\s*$/).size > 0
+    if has_yaml
+      data = YAML.load(doc_text)
+      @yaml_info = data
+      if data
+        @yaml_date = data["date"]
+        @title = data["title"] || @title
+        strip_yaml_head()
+      end
+    else
+      @yaml_info = Hash.new
     end
   end
 
