@@ -2,7 +2,7 @@
 title:  "简单OS-Kernel设想"
 layout:  post
 date:    2022-10-28 20:41:42 +0800
-categories: jekyll update
+categories: jekyll update idea geek
 ---
 
 
