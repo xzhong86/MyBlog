@@ -2,7 +2,8 @@
 title:  "构建uArch硬件平台"
 layout:  post
 date:    2022-10-28 20:35:48 +0800
-categories: jekyll update geek uarch
+categories: jekyll update
+tags: geek uarch
 ---
 
 

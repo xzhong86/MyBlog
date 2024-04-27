@@ -2,7 +2,8 @@
 title:  "PC部件尺寸信息"
 layout:  post
 date:    2023-03-15
-categories: jekyll update geek
+categories: jekyll update
+tags: geek diy
 ---
 
 # PC部件尺寸信息

@@ -2,7 +2,8 @@
 title:  "简单HTTP Server"
 layout:  post
 date:    2022-10-25 22:44:24 +0800
-categories: jekyll update tech http
+categories: jekyll update
+tags: tech http
 ---
 
 # 简单HTTP Server

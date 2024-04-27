@@ -2,7 +2,8 @@
 title:  "GPerfTools 简单教程"
 layout:  post
 date:    2024-04-03
-categories: jekyll post tech profiling
+categories: jekyll post
+tags: tech profiling
 ---
 
 # GPerfTools 简单教程

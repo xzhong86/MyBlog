@@ -2,7 +2,8 @@
 title:  "GitHub API 入门"
 layout:  post
 date:    2022-10-22 12:59:32 +0800
-categories: jekyll update tech github
+categories: jekyll update
+tags: tech github
 ---
 
 # GitHub API 入门

@@ -2,7 +2,8 @@
 title:  "Linx系统配置网络唤醒"
 layout:  post
 date:    2024-04-27
-categories: jekyll update linux ubuntu tech newwork
+categories: jekyll update linux
+tags: ubuntu tech newwork
 ---
 
 

@@ -2,7 +2,8 @@
 title:  "Ubuntu Alternatives 管理机制"
 layout:  post
 date:    2024-04-27
-categories: jekyll update linux ubuntu tech
+categories: jekyll update
+tags: linux ubuntu tech
 ---
 
 
