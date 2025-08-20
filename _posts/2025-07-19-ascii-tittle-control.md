@@ -24,7 +24,9 @@ categories: jekyll update
 ESC就指代escape code， 就是上面的 `\033`， 这里的33是8进制数据，十六进制是 1B，
 就是ASCII中的控制码ESC。 ESC字符之后的 ']0;' 就开启了设置符号名和标题的 控制序列，序列到 ST 字符为止。
 
-ST意思为string terminator， 上面给的是 `\a` ， 有的例子给出的是 `\007`， 007 为BELL控制符，`\a`是C语言中对应的转义字符。
+ST意思为string terminator， 上面给的是 `\a` ， 有的例子给出的是 `\007`， 007 为BELL控制符，
+`\a`是C语言中对应的转义字符。 
+ST字符可能不总是007， OSC（Operating System Control）支持007做结束符， 进一步的信息没有确认。
 
 如此，基本就理清了terminal title错误原因和解决方法了。 对于我MacBook的而言，
 就是PS1环境变量配置的太简单，没有对应的配置title的序列，加上就可以了。

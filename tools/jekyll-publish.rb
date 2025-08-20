@@ -87,6 +87,9 @@ def publish(doc_path, opts)
   gen_header(out, opts)
   out.write(doc.doc_text)
   out.close
+
+  puts "Mark readonly for #{doc_path}"
+  File.chmod(0444, doc_path)
 end
 
 # main
