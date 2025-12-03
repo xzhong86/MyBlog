@@ -7,15 +7,17 @@ categories: jekyll update
 
 # 机器学习、大模型参数保存格式
 
-关于 pt/pth/safetensor/chkpt 格式的说明。
+关于 pt/pth/safetensor/chkpt/gguf 格式的简单说明，更多细节见参考链接。
 
 > 主要参考： https://blog.csdn.net/qq_35899016/article/details/149666496
 
-| 后缀        | 格式           | 说明                   |
-|-------------|----------------|------------------------|
-| .pt/.pth    | PyTorch格式    | 早期使用，不安全       |
-| .safetensor | SafeTensor格式 | 目前主流，安全高效     |
-| .chkpt      | CheckPoint格式 | 用于保存、恢复训练过程 |
+| 后缀        | 格式           | 说明                                    |
+|-------------|----------------|-----------------------------------------|
+| .pt/.pth    | PyTorch格式    | 早期使用，不安全                        |
+| .safetensor | SafeTensor格式 | 目前主流，安全高效                      |
+| .chkpt      | CheckPoint格式 | 用于保存、恢复训练过程                  |
+| .ggml       | GGML格式       | 单文件，GGUF之前的格式，不完善          |
+| .gguf       | GGUF格式       | 单文件，目前主流格式，llama.cpp主要格式 |
 
 ## PyTorch保存格式
 
@@ -34,7 +36,14 @@ JSON文件头是字符串，内包含各层的数据类型，大小，偏移量�
 
 “.chkpt/.checkpoint” ，“检查点”， 保存了训练过程中的参数和各种状态信息，保存后可以加载恢复训练过程。
 
+## GGML/GGUF格式
+
+GGML格式（Georgi Gerganov Machine Learning），开源项目 llama.cpp 的创建者Georgi Gerganov
+开发的早期格式，特性不完善。
+GGUF格式（GPT-Generated Unified Format），开源项目 llama.cpp 使用的主要格式，解决了GGML的缺点。
+
 ## 参考
 
 - [AI模型的“存档”艺术：揭秘.pt, .ckpt, .safetensors](https://blog.csdn.net/qq_35899016/article/details/149666496)
 - [Safetensors：保存模型权重的新格式](https://zhuanlan.zhihu.com/p/691446249)
+- [一文搞懂大模型存储格式GGUF](https://blog.csdn.net/pythonhy/article/details/142919327)
